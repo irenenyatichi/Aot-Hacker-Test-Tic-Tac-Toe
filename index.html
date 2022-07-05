@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,17 @@
   <script src="script.js" defer></script>
   <title>Document</title>
 </head>
-<body>
+
+<body style="background-color: rgb(146, 217, 242);">
+  <h1 style="font-size: 80px; margin-top: 0px; text-align: center;">Tic-Tac-Toe</h1>
+  <h3 style="margin: 90px;">Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking
+    the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a
+    horizontal, vertical, or diagonal row is the winner. <a
+      href="https://en.wikipedia.org/wiki/Tic-tac-toe" style="text-decoration:none;">Wikipedia</a></h3>
+  <button style="margin-left: 720px; text-decoration: none;font-size: 16px; color: black;"><a href="#workingBoard"
+     >Press Here</a></button>
   <div class="workingBoard" id="workingBoard">
-     <!-- Since this game is made of a board with cells inside,
+    <!-- Since this game is made of a board with cells inside,
      we will construct the cells using the <div> element. -->
     <div class="cell" data-cell></div>
     <div class="cell" data-cell></div>
@@ -27,4 +36,5 @@
     <button id="restartButton">Restart</button>
   </div>
 </body>
+
 </html>
